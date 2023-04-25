@@ -82,6 +82,9 @@ left: 365px;
 }
 #coupon {
 position: fixed;
-top: 300px;
-left: 100px;
+top: 350px;
+left: -90px;
+}
+#coupon a, img {
+border: none;
 }
