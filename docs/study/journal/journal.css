@@ -1,6 +1,7 @@
 @font-face {
   font-family: "Emblema One";
-  src: url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.woff"),
+  src: url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.woff"),<table>
+
        url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.ttf");
 }
 body {
@@ -23,4 +24,28 @@ blockquote{
 h1,h2{
   color: #cc6600;
   border-bottom: thin dotted #888888;
+}
+table {
+margin-left: 20px;
+margin-right;
+border: thin solid black;
+caption-side: bottom;
+border-collapse: collapse;
+}
+td, th {
+border: thin dotted gray;
+padding: 5px;
+}
+caption {
+font-style: italic;
+padding-top: 8x;
+}
+th {
+background-color: #cc6600;
+}
+tr:nth-child(odd) {
+background-color: #fcaba7;
+}
+tr:nth-child(odd) {
+background-color: #fcaba7;
 }
